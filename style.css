@@ -1,10 +1,11 @@
 /* Define fonte e cores gerais */
 body {
+  background-color: #000000;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f4f4f9;
-    color: m#ff0000;
+    color: m#000000;
   }
   
   /* Cabeçalho */
@@ -23,7 +24,7 @@ body {
   
   /* Links */
   a {
-    color: #63e24a;
+    color: #020202;
     text-decoration: none;
     font-weight: bold;
   }
