@@ -1,44 +1,34 @@
-/* Define fonte e cores gerais */
+/* ===== Estilo Geral ===== */
 body {
-  background-color: #000000;
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f9;
-    color: m#000000;
-  }
-  
-  /* Cabeçalho */
-  header {
-    background-color: #181818;
-    color: rgb(0, 0, 0);
-    text-align: center;
-    padding: 20px;
-  }
-  
-  /* Conteúdo principal */
-  main {
-    padding: 20px;
-    text-align: center;
-  }
-  
-  /* Links */
-  a {
-    color: #020202;
-    text-decoration: none;
-    font-weight: bold;
-  }
-  
-  a:hover {
-    text-decoration: underline;
-  }
-  
-  /* Rodapé */
-  footer {
-    background-color: #222;
-    color: white;
-    text-align: center;
-    padding: 15px;
-    margin-top: 20px;
-  }
-  
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+/* ===== Cabeçalho ===== */
+header {
+  background-color: #4a90e2;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2em;
+}
+
+/* ===== Navegação ===== */
+nav {
+  background-color: #333;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex
+}
